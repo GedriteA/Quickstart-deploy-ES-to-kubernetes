@@ -30,9 +30,9 @@ Based on the requirement the following design decisions have been made.
    - Names : elasticsearch-data-0, elasticsearch-data-1, elasticsearch-data-2
    - storage: 5Gi
    - storageClassName: manual (ideal:standard)
-   - Connect to AWS EBS (limitation due to lack of AWS CLI access)
+   - Ideally connect to AWS EBS (limitation due to lack of AWS CLI access)
 
-### AWS configuration (limitation due to lack of AWS CLI access)
+### AWS configuration (Create EBS volumes:not done)
   - AWS EBS volumes
 ## Prerequisites
 - kubectl
