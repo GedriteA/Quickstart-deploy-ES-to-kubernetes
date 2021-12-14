@@ -18,8 +18,7 @@ Based on the requirement the following design decisions have been made.
 
 ### ES Cluster Configuration
 - Cluster name : escluster
-- Number of nodes :
-  - Tried 6 nodes but EKS nodegroup is locked into 3 nodes(I think?) Default ECK node scheduling only allows 1 ES node per kubernetes host    (https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-advanced-node-scheduling.html). Which is the right configuration anyway for high availability
+- Number of nodes : 3 nodes
 -  Volume claim template 
   - Name : elasticsearch-data
   - storage : 5Gi
@@ -48,7 +47,7 @@ kubectl auth can-i delete pods
 ## Steps to deploy the cluster 
  1. Clone the reposistory 
  ````
- git clone https://github.com/PicnicNext/picnic-recruitment-task-infra-GedriteA.git
+ git clone https://github.com/GedriteA/Quickstart-deploy-ES-to-kubernetes.git
  ````
  2. Provide execute permissions for the scripts ./deployES.sh and ./testES.sh 
  ````
