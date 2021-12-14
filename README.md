@@ -58,7 +58,7 @@ kubectl auth can-i delete pods
   ````
  ./deployES.sh
   ````
- ![deploy](https://user-images.githubusercontent.com/22384690/145718437-9f6e225f-b093-43a6-9586-8cb96c0dcee9.JPG)
+
  
  4. Wait for the ES cluster to deploy this takes about 10 minutes at the max
  
@@ -66,13 +66,13 @@ kubectl auth can-i delete pods
  ````
  kubectl port-forward service/escluster-es-http 9200
  ````
-![forward](https://user-images.githubusercontent.com/22384690/145718528-fbdc4f17-8652-44bd-8d17-a662e839a946.JPG)
+
 
  6. Run the test suite
  ````
  ./testES.sh
  ````
-![testes](https://user-images.githubusercontent.com/22384690/145718633-029765bc-bed9-4d16-b4b4-f20cc47091ab.JPG)
+
 
 
 ## Steps to delete the cluster
@@ -88,4 +88,4 @@ kubectl auth can-i delete pods
  ````
  ./deleteES.sh
  ```` 
- ![asdf](https://user-images.githubusercontent.com/22384690/145718788-de0be417-0e37-4a39-ae81-8640d27afe57.JPG)
+ 
