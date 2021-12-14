@@ -1,8 +1,6 @@
 # Elasticsearch on Kubernetes
 
 
-### Design decisions
-Based on the requirement the following design decisions have been made.
 ### Tools used to deploy
 - Custom resource definition from https://download.elastic.co/downloads/eck/1.9.0/crds.yaml
   - Provides the definition so we could define elasticsearch objects as kubernetes resources
